@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "codeguppy_1"
+]

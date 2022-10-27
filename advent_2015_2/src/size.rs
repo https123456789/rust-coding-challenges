@@ -27,4 +27,10 @@ impl Size {
         dims.sort();
         return dims[0] * dims[1];
     }
+    pub fn get_ribbon_length(&self) -> i32  {
+        // Determine the smallest 2 sides
+        let mut dims: Vec<i32> = vec!(self.w, self.h, self.l);
+        dims.sort();
+        return (2 * dims[0] + 2 * dims[1]) + (self.w * self.h * self.l);
+    }
 }

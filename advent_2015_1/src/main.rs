@@ -17,6 +17,7 @@ fn main() {
     //let mut contents_as_str = contents.as_mut_str();
     
     let mut level = 0;
+    let mut basement_at = 0;
     let mut i = 0;
 
     while i < contents.len() {
@@ -26,7 +27,10 @@ fn main() {
         } else {
             level -= 1;
         }
+        if level < 0 && basement_at == 0 {
+            basement_at = i + 1;
+        }
         i += 1;
     }
-    println!("Level: {}", level);
+    println!("Level: {}\nEnters Basement At: {}", level, basement_at);
 }

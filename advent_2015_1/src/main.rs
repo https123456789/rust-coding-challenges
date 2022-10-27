@@ -14,12 +14,12 @@ fn main() {
     // Read the input
     let contents = fs::read_to_string(&args[1])
         .expect("Should have been able to read the file");
-    //let mut contents_as_str = contents.as_mut_str();
     
     let mut level = 0;
     let mut basement_at = 0;
     let mut i = 0;
 
+    // Loop over the file content and change the level based on the character
     while i < contents.len() {
         let c = &contents[i..i+1];
         if c.eq("(") {

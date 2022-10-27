@@ -6,12 +6,10 @@ This is a collection of my solutions to various coding challenges in Rust.
 
 ### Advent Of Code ([adventofcode.com](https://adventofcode.com))
 
-**[2015](https://adventofcode.com/2015)**
+**[2015](https://adventofcode.com/2015)** [:heavy_check_mark:]
 
 - :white_check_mark: Day 1: Not Quite Lisp
-- :heavy_check_mark: Day 2: I Was Told There Would Be No Math
-    - :white_check_mark: Part 1
-    - :x: Part 2
+- :white_check_mark: Day 2: I Was Told There Would Be No Math
 - :x: Day 3: Perfectly Spherical Houses in a Vacuum
 - :x: Day 4: The Ideal Stocking Stuffer
 - :x: Day 5: Doesn't He Have Intern-Elves For This?

@@ -1,0 +1,32 @@
+use std::fs;
+use std::env;
+
+fn main() {
+    println!("Advent of Code 2015\nDay 1: Not Quite Lisp");
+
+    // Get args
+    let args: Vec<String> = env::args().collect();
+    if args.len() != 2 {
+        println!("\x1b[31mError: Invalid args.\x1b[0m");
+        return;
+    }
+    
+    // Read the input
+    let contents = fs::read_to_string(&args[1])
+        .expect("Should have been able to read the file");
+    //let mut contents_as_str = contents.as_mut_str();
+    
+    let mut level = 0;
+    let mut i = 0;
+
+    while i < contents.len() {
+        let c = &contents[i..i+1];
+        if c.eq("(") {
+            level += 1;
+        } else {
+            level -= 1;
+        }
+        i += 1;
+    }
+    println!("Level: {}", level);
+}

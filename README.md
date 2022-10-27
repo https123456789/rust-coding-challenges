@@ -8,7 +8,9 @@ This is a collection of my solutions to various coding challenges in Rust.
 
 **[2015](https://adventofcode.com/2015)**
 
-- :x: Day 1: Not Quite Lisp
+- :heavy_check_mark: Day 1: Not Quite Lisp
+    - :white_check_mark: Part 1
+    - :x: Part 2
 - :x: Day 2: I Was Told There Would Be No Math
 - :x: Day 3: Perfectly Spherical Houses in a Vacuum
 - :x: Day 4: The Ideal Stocking Stuffer

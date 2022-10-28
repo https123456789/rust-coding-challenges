@@ -1,19 +1,10 @@
-use std::fs;
-use std::env;
+use shared_lib::{get_args, get_contents_of_file};
 
 fn main() {
     println!("Advent of Code 2015\nDay 1: Not Quite Lisp");
-
-    // Get args
-    let args: Vec<String> = env::args().collect();
-    if args.len() != 2 {
-        println!("\x1b[31mError: Invalid args.\x1b[0m");
-        return;
-    }
     
     // Read the input
-    let contents = fs::read_to_string(&args[1])
-        .expect("Should have been able to read the file");
+    let contents = get_contents_of_file(get_args(2)[1].clone());
     
     let mut level = 0;
     let mut basement_at = 0;

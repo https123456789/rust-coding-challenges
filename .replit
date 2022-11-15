@@ -1,5 +1,5 @@
 #compile = ["cargo", "build"]
-run = "cargo run -p advent_2015_3 -- advent_2015/advent_2015_3/input.txt"
+run = "cargo run -p advent_2015_3_2 -- advent_2015/advent_2015_3_2/input.txt"
 hidden = ["target"]
 
 entrypoint = "src/main.rs"

@@ -2,6 +2,8 @@
 
 This is a collection of my solutions to various coding challenges in Rust.
 
+The main purpose behind me completing these challenges is to facilitate me learning practical Rust.
+
 ## Challenges
 
 ### Advent Of Code ([adventofcode.com](https://adventofcode.com))
@@ -10,9 +12,7 @@ This is a collection of my solutions to various coding challenges in Rust.
 
 - :white_check_mark: Day 1: Not Quite Lisp
 - :white_check_mark: Day 2: I Was Told There Would Be No Math
-- :heavy_check_mark: Day 3: Perfectly Spherical Houses in a Vacuum
-    - :white_check_mark: Part 1
-    - :x: Part 2
+- :white_check_mark: Day 3: Perfectly Spherical Houses in a Vacuum
 - :x: Day 4: The Ideal Stocking Stuffer
 - :x: Day 5: Doesn't He Have Intern-Elves For This?
 - :x: Day 6: Probably a Fire Hazard

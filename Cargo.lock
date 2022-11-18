@@ -31,5 +31,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "advent_2015_4"
+version = "0.1.0"
+dependencies = [
+ "shared_lib",
+]
+
+[[package]]
+name = "advent_2015_4_2"
+version = "0.1.0"
+dependencies = [
+ "shared_lib",
+]
+
+[[package]]
 name = "shared_lib"
 version = "0.1.0"

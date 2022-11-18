@@ -4,5 +4,7 @@ members = [
     "advent_2015/advent_2015_1",
     "advent_2015/advent_2015_2",
     "advent_2015/advent_2015_3",
-    "advent_2015/advent_2015_3_2"
+    "advent_2015/advent_2015_3_2",
+    "advent_2015/advent_2015_4",
+    "advent_2015/advent_2015_4_2"
 ]

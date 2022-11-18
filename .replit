@@ -1,5 +1,5 @@
 #compile = ["cargo", "build"]
-run = "cargo run -p advent_2015_5 -- advent_2015/advent_2015_5/input.txt"
+run = "RUST_BACKTRACE=1 cargo run -p advent_2015_5_2 -- advent_2015/advent_2015_5_2/input.txt"
 hidden = ["target"]
 
 entrypoint = "src/main.rs"

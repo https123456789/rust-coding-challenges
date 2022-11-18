@@ -6,7 +6,7 @@ The main purpose behind me completing these challenges is to facilitate me learn
 
 ## Credit
 
-I try to write as much of the code from scratch, but in some cases, it is not worth the envestment of time to learn how to accomplish some of the things required to complete the challenge.
+I try to write as much of the code from scratch, but in some cases, it is not worth the investment of time to learn how to accomplish some of the things required to complete the challenge.
 
 - [Rosetta Code](https://rosettacode.org): pure rust MD5 implementation (advent_2015_4) [[link](https://rosettacode.org/wiki/MD5/Implementation)]
 
@@ -16,11 +16,11 @@ I try to write as much of the code from scratch, but in some cases, it is not wo
 
 :heavy_check_mark: **[2015](https://adventofcode.com/2015)**
 
-- :white_check_mark: Day 1: Not Quite Lisp
-- :white_check_mark: Day 2: I Was Told There Would Be No Math
-- :white_check_mark: Day 3: Perfectly Spherical Houses in a Vacuum
-- :white_check_mark: Day 4: The Ideal Stocking Stuffer
-- :x: Day 5: Doesn't He Have Intern-Elves For This?
+- :white_check_mark: Day 1: Not Quite Lisp (Oct 26, 2022)
+- :white_check_mark: Day 2: I Was Told There Would Be No Math (Oct 26, 2022)
+- :white_check_mark: Day 3: Perfectly Spherical Houses in a Vacuum (Nov 15, 2022)
+- :white_check_mark: Day 4: The Ideal Stocking Stuffer (Nov 17, 2022)
+- :white_check_mark: Day 5: Doesn't He Have Intern-Elves For This (Nov 18, 2022)
 - :x: Day 6: Probably a Fire Hazard
 - :x: Day 7: Some Assembly Required
 - :x: Day 8: Matchsticks

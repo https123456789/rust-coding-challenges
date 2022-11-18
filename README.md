@@ -14,7 +14,7 @@ I try to write as much of the code from scratch, but in some cases, it is not wo
 
 ### Advent Of Code ([adventofcode.com](https://adventofcode.com))
 
-**[2015](https://adventofcode.com/2015)** [:heavy_check_mark:]
+:heavy_check_mark: **[2015](https://adventofcode.com/2015)**
 
 - :white_check_mark: Day 1: Not Quite Lisp
 - :white_check_mark: Day 2: I Was Told There Would Be No Math
